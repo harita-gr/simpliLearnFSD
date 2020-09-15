@@ -1,0 +1,38 @@
+/*
+ * Writing a program in Java to implement implicit and explicit type casting
+ * 
+ * */
+package typeCasting;
+
+public class typeCasting {
+
+	public static void main(String[] args) {
+		
+	char a='a';
+	
+	System.out.println("Implicit Typecasting\n");
+	int b = a;
+	float c =a;
+	long d=a;
+	double e=a;
+	
+	System.out.println("Char value = "+a);
+	System.out.println("Int value = "+b);
+	System.out.println("Float value = "+c);
+	System.out.println("Long value = "+d);
+	System.out.println("Doube value = "+e);
+	
+	System.out.println("\nExplicit Typecasting\n");
+	
+	double x=46788.8;
+	int y=(int) x;
+	
+	System.out.println("Doube value = "+x);
+	System.out.println("Int value = "+y);
+	
+	
+		
+
+	}
+
+}
