@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;accessModifiers.defaultAccessSpecifier.java&apos; to &apos;AccessSpecifier1.java&apos;&#x0A;- Original project: &apos;Phase1_Concepts&apos;&#x0A;- Original element: &apos;accessModifiers.defaultAccessSpecifier.java&apos;&#x0A;- Renamed element: &apos;accessModifiers.AccessSpecifier1.java&apos;" description="Rename compilation unit &apos;defaultAccessSpecifier.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;accessModifiers{defaultAccessSpecifier.java" name="AccessSpecifier1.java" references="false" stamp="1600163696227" version="1.0"/>
+</session>

@@ -1,0 +1,30 @@
+package accessModifiers;
+
+//class accessibility - default
+class defaultAccessSpecifier{
+
+	//method accessibility - default
+	void display() {
+	System.out.println("using default modifier");
+   }
+}
+
+//class accessibility - default
+class privateAccessSpecifier{
+	
+	private void display() {
+	System.out.println("using private modifier");
+	}	
+	
+}
+
+ public class AccessSpecifier1 {
+	 public static void main(String[] args) {
+		
+	}
+	 
+
+	}
+
+
+}

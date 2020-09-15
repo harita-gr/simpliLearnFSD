@@ -1,0 +1,13 @@
+package accessModifiers;
+
+public class AccessSpecifier2 {
+
+	public static void main(String[] args) {
+		
+		protectedAccessSpecifier protObj = new protectedAccessSpecifier();
+		protObj.display();
+		
+		
+	}
+
+}

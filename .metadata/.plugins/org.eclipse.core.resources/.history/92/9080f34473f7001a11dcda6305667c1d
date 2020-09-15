@@ -1,0 +1,10 @@
+package accessModifiers2;
+
+public class AccessSpecifier3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

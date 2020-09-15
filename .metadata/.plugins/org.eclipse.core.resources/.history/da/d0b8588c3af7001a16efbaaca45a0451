@@ -1,0 +1,24 @@
+package accessModifiers;
+
+//class accessibility - default
+class defaultAccessSpecifier{
+	
+	void display() {
+	System.out.println("inside default class");
+   }
+}
+
+class privateAccessSpecifier{
+	
+}
+
+ public class AccessSpecifier1 {
+	 public static void main(String[] args) {
+		
+	}
+	 
+
+	}
+
+
+}

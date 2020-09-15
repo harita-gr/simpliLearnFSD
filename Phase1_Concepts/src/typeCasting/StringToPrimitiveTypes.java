@@ -20,6 +20,7 @@ public class StringToPrimitiveTypes {
 		
 		System.out.println("enter the string: ");
 		input=s.nextLine();
+		s.close();
 		
 		//converting
 		int i=Integer.parseInt(input);

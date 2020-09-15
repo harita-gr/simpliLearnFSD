@@ -1,0 +1,9 @@
+package accessModifiers;
+
+//class accessibility - default
+public class publicaccessspecifier{
+	//method accessibility - public
+	public void display() {
+	system.out.println("using public modifier");
+	}		
+}

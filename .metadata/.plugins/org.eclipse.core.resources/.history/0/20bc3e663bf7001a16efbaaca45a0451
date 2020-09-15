@@ -1,0 +1,37 @@
+package accessModifiers;
+
+//class accessibility - default
+class defaultAccessSpecifier{
+
+	//method accessibility - default
+	void display() {
+	System.out.println("using default modifier");
+   }
+}
+
+//class accessibility - default
+class privateAccessSpecifier{
+	//method accessibility - private
+	private void display() {
+	System.out.println("using private modifier");
+	}	
+	
+}
+
+ public class AccessSpecifier1 {
+	 public static void main(String[] args) {
+		 
+		//Accessing default method of another class
+		 defaultAccessSpecifier dObj = new defaultAccessSpecifier();
+		 dObj.display();
+		 
+		 //Trying to access private method of another class
+		 privateAccessSpecifier privObj = new privateAccessSpecifier();
+		 //privObj.display();
+		
+	}
+	 
+
+	}
+
+
